@@ -1,5 +1,6 @@
 module "backend" {
-  source = "github.com/ptonini/terraform-vault-mount"
+  source = "ptonini/mount/vault"
+  version = "~> 1.0.0"
   path = var.path
   type = var.backend_type
 }
