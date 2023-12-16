@@ -1,5 +1,5 @@
 output "this" {
-  value = module.backend.this
+  value = vault_mount.this
 }
 
 output "csr" {
